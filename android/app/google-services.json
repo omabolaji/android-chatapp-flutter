@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "148599658970",
+    "firebase_url": "https://chatt-b7e57.firebaseio.com",
+    "project_id": "chatt-b7e57",
+    "storage_bucket": "chatt-b7e57.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:148599658970:android:a5e9df123d91cffa4d88e3",
+        "android_client_info": {
+          "package_name": "famousb.chatt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "148599658970-iqnhljsl4blu12davmm8r44967410sdv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk5husjqoCkNYrgbnQBVFj2VgYYbJ9eK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "148599658970-iqnhljsl4blu12davmm8r44967410sdv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
