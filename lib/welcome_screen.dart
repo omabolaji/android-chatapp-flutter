@@ -23,7 +23,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 
     controller = AnimationController(
       vsync: this,
-      duration: Duration(seconds: 2),
+      duration: Duration(seconds: 5),
     );
 
     animation = ColorTween(
@@ -69,20 +69,22 @@ class _WelcomeScreenState extends State<WelcomeScreen>
           children: <Widget>[
             Row(
               children: <Widget>[
-                Hero(
-                  tag: 'logo',
-                  child: Container(
-                    height: 60.0,
-                    child: Icon(
-                      Icons.flash_on,
-                      size: 50,
-                      color: Colors.yellow,
+                Flexible(
+                  child: Hero(
+                    tag: 'logo',
+                    child: Container(
+                      height: 60.0,
+                      child: Icon(
+                        Icons.flash_on,
+                        size: 50,
+                        color: Colors.yellow,
+                      ),
                     ),
                   ),
                 ),
-                Text(
-                  'Flash Chat',
-                  style: TextStyle(
+                TypewriterAnimatedTextKit(
+                  text: ['Flash Chat'],
+                  textStyle: TextStyle(
                     fontSize: 45.0,
                     fontWeight: FontWeight.w900,
                   ),
